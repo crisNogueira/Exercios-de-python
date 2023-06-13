@@ -1,0 +1,10 @@
+import math
+ang = float(input('Digeite o valor do ângulo: '))
+x=math.radians(ang)
+sen = math.sin(x)
+cos = math.cos(x)
+tg = math.tan(x)
+print('O ângulo de {} tem:'.format(ang))
+print('='*12)
+print('sen({}°)={:.2f} \ncos({}°)={:.2f} \ntg({}°)={:.2f}'.format(ang, sen, ang, cos, ang, tg))
+print('='*12)
